@@ -4,8 +4,7 @@
 !.env.example
 
 # Local data pack: copy data/campus_customs.db and data/products/ here after cloning
-/data/campus_customs.db
-/data/products/
+/data/
 /data.zip
 *.db
 *.sqlite
@@ -15,7 +14,8 @@
 .venv/
 __pycache__/
 *.py[cod]
-frontend/node_modules/
+frontend/node_modules
+frontend/vite.local.config.ts
 frontend/dist/
 frontend/.vite/
 *.tsbuildinfo

@@ -2,6 +2,14 @@
 
 A React, Vite, and TypeScript storefront with a FastAPI backend and a PydanticAI shopping assistant. The catalogue database and product images are a separate local data pack and are intentionally not included in this repository.
 
+The assignment project lives in the repository's `hw4/` folder. After cloning, change into that folder before running the setup commands below:
+
+```bash
+cd campus-customs-hw4/hw4
+```
+
+If you are already at the repository root, use `cd hw4` instead.
+
 You need Python 3.10 or newer, Node.js 18 or newer, and npm.
 
 ## Install the local data pack
@@ -19,7 +27,7 @@ For example, if `data.zip` is in your Downloads folder:
 unzip ~/Downloads/data.zip -d .
 ```
 
-Check that `data/campus_customs.db` exists and that `data/products/` contains the catalogue images before starting the apps. The `/data/` folder, database, image files, and zip are ignored by Git.
+Check that `data/campus_customs.db` exists and that `data/products/` contains the catalogue images before starting the apps. The local `data/` folder, database, image files, and zip are ignored by Git.
 
 ## Configure local environment
 
