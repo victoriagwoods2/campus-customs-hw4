@@ -1,0 +1,22 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local data pack: copy data/campus_customs.db and data/products/ here after cloning
+/data/campus_customs.db
+/data/products/
+/data.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# Python and frontend development artifacts
+.venv/
+__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+.DS_Store
